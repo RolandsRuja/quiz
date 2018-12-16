@@ -1,0 +1,87 @@
+/*  MAIN  */
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(90deg ,#6441a5, #2a0845);
+}
+
+/*  INDEX  */
+.header {
+    margin-bottom: 1em;
+    color: white;
+    font-weight: 300;
+}
+
+.form-control {
+    color: #4f2995;
+}
+
+.invalid-feedback {
+    font-size: 1em;
+}
+
+/*  QUIZ  */
+.qa:not(:first-child) {
+    display: none;
+}
+
+.question h2{
+    color: white;
+    font-weight: 300;
+    padding: 1em;
+}
+
+.answer {
+    cursor: pointer;
+    padding: 0.5em 0 0.5em 0;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid white;
+    margin-bottom: 1em;
+}
+
+.answer h4 {
+    color: white;
+    font-weight: 400;
+}
+
+.answer:hover h4 {
+    font-weight: bold;
+}
+
+.progress {
+    margin: 1em 0 2em 0;
+}
+
+.selected {
+    background-color: white !important;
+    color: #4f2995 !important;
+    font-weight: bold !important;
+}
+
+.selected h4 {
+    color: #4f2995 !important;
+    font-weight: bold !important;
+}
+
+#button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid white;
+}
+
+.progress-bar {
+    background-color: #2a0845 !important;
+}
+
+/*  RESULT  */
+.result h1{
+    color: white;
+    font-size: 5em;
+}
+
+.result p {
+    color: white;
+    font-weight: 300;
+    font-size: 1.5em;
+}
