@@ -18,9 +18,10 @@
       ```
     data/init.sql
       ```sql
-      DROP DATABASE IF EXISTS `quiz`;
-      CREATE DATABASE IF NOT EXISTS  `quiz`;
+      DROP DATABASE IF EXISTS `YOUR_DB_NAME`;
+      CREATE DATABASE IF NOT EXISTS  `YOUR_DB_NAME`;
       ```
 3. **Last step**<br>
   If you have done previous 2 steps then from your browser go to the **localhost/public/index.php** and you should be able to
   choose between 2 tests as in screenshot.
+  ![Alt text](https://github.com/RolandsRuja/quiz/blob/master/Screenshot.png "Optional title")
